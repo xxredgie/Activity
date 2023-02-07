@@ -15,7 +15,7 @@ function validate(){
 
     if(password.value.length >= 8){
         alert("Login Succesfull");
-        window.location.replace("dashboard/dashboard.html");
+        window.location.replace("welcome.html");
         return false;
     }
     else{
