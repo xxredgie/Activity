@@ -2,7 +2,7 @@ function myfunction(){
     var x = document.getElementById("pass");
 
     if(x.type === "password"){
-        x.type = "text";
+        x.type = "email";
     }
     else{
         x.type = "password"
